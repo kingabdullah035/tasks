@@ -12,7 +12,7 @@ describe("Some HTML Elements are added.", () => {
 
     test("There is an image with alt text", () => {
         render(<App />);
-        const image = screen.getByRole("img");
+        const image = screen.getByRole("image");
         expect(image).toBeInTheDocument();
         expect(image).toHaveAttribute("alt");
     });
