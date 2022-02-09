@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Button, Col, Container, Row } from "react-bootstrap";
 import messi from "./MessiWC.jpg";
 import barca from "./barca.jpg";
@@ -10,6 +11,8 @@ import Miami from "./interMiami.jpg";
 =======
 =======
 >>>>>>> upstream/task-forms
+=======
+>>>>>>> solved-components
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { StartAttempt } from "./components/StartAttempt";
@@ -23,12 +26,15 @@ import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
+<<<<<<< HEAD
 import { CheckAnswer } from "./form-components/CheckAnswer";
 import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
 import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
 import { ChangeColor } from "./form-components/ChangeColor";
 >>>>>>> upstream/task-forms
+=======
+>>>>>>> solved-components
 
 function App(): JSX.Element {
     return (
@@ -38,6 +44,7 @@ function App(): JSX.Element {
                 <br />
                 By: Abdullah Maruf
             </header>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <h1 id="first_header"> G.O.A.T. </h1>
@@ -97,6 +104,13 @@ function App(): JSX.Element {
             <hr></hr>
             {/* <DoubleHalf></DoubleHalf> */}
             <hr></hr>
+=======
+            <hr></hr>
+            {/* <DoubleHalf></DoubleHalf> */}
+            <hr></hr>
+            <DoubleHalf></DoubleHalf>
+            <hr></hr>
+>>>>>>> solved-components
             <ChooseTeam></ChooseTeam>
             <hr></hr>
             <ColoredBox></ColoredBox>
@@ -104,7 +118,10 @@ function App(): JSX.Element {
             <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
+<<<<<<< HEAD
 >>>>>>> upstream/task-forms
+=======
+>>>>>>> solved-components
             <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
@@ -116,9 +133,12 @@ function App(): JSX.Element {
             <hr />
             <CycleHoliday></CycleHoliday>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ab9bfb5 (Basic starter files for components)
 =======
 >>>>>>> upstream/task-forms
+=======
+>>>>>>> solved-components
         </div>
     );
 }
