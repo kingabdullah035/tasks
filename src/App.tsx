@@ -2,19 +2,30 @@ import React from "react";
 import "./App.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import messi from "./MessiWC.jpg";
+import barca from "./barca.jpg";
+import psg from "./psg.jpg";
+import Miami from "./interMiami.jpg";
 
 function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
+                <br />
+                By: Abdullah Maruf
             </header>
             <h1 id="first_header"> G.O.A.T. </h1>
             <img src={messi} alt="messi pic"></img>
             <ol>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+                <li>
+                    <img src={barca} alt="barca pic"></img>
+                </li>
+                <li>
+                    <img src={psg} alt="psg pic"></img>
+                </li>
+                <li>
+                    <img src={Miami} alt="inter miami pic"></img>
+                </li>
             </ol>
 
             <p> Hello World </p>
