@@ -16,7 +16,6 @@ describe("Testing the basic functions", () => {
         expect(fahrenheitToCelius(86)).toBe(30);
         expect(fahrenheitToCelius(212)).toBe(100);
     });
-
     test("Testing the add3 function", () => {
         expect(add3(1, 2, 3)).toBe(6);
         expect(add3(9, 7, 4)).toBe(20);
@@ -25,7 +24,6 @@ describe("Testing the basic functions", () => {
         expect(add3(-9, -100, -4)).toBe(0);
         expect(add3(-1, -1, 1)).toBe(1);
     });
-
     test("Testing the shout function", () => {
         expect(shout("Hello")).toBe("HELLO!");
         expect(shout("What?")).toBe("WHAT?!");
@@ -34,7 +32,6 @@ describe("Testing the basic functions", () => {
         expect(shout("")).toBe("!");
         expect(shout("Please go outside")).toBe("PLEASE GO OUTSIDE!");
     });
-
     test("Testing the isQuestion function", () => {
         expect(isQuestion("Is this a question?")).toBe(true);
         expect(isQuestion("Who are you?")).toBe(true);
@@ -44,7 +41,6 @@ describe("Testing the basic functions", () => {
         expect(isQuestion("Oh nevermind, it's fine.")).toBe(false);
         expect(isQuestion("")).toBe(false);
     });
-
     test("Testing the convertYesNo function", () => {
         expect(convertYesNo("yes")).toBe(true);
         expect(convertYesNo("YES")).toBe(true);
