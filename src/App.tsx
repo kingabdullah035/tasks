@@ -7,8 +7,6 @@ import barca from "./barca.jpg";
 import psg from "./psg.jpg";
 import Miami from "./interMiami.jpg";
 
-
-
 function App(): JSX.Element {
     return (
         <div className="App">
@@ -20,7 +18,6 @@ function App(): JSX.Element {
             <h1 id="first_header"> G.O.A.T. </h1>
             <img src={messi} alt="messi pic"></img>
             <ol>
-
                 <li>
                     <img src={barca} alt="barca pic"></img>
                 </li>
@@ -34,7 +31,6 @@ function App(): JSX.Element {
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>
-
             </ol>
 
             <p> Hello World </p>
