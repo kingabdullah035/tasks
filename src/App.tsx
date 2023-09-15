@@ -2,9 +2,12 @@ import React from "react";
 import "./App.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import messi from "./MessiWC.jpg";
+
 import barca from "./barca.jpg";
 import psg from "./psg.jpg";
 import Miami from "./interMiami.jpg";
+
+
 
 function App(): JSX.Element {
     return (
@@ -17,6 +20,7 @@ function App(): JSX.Element {
             <h1 id="first_header"> G.O.A.T. </h1>
             <img src={messi} alt="messi pic"></img>
             <ol>
+
                 <li>
                     <img src={barca} alt="barca pic"></img>
                 </li>
@@ -26,6 +30,11 @@ function App(): JSX.Element {
                 <li>
                     <img src={Miami} alt="inter miami pic"></img>
                 </li>
+
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+
             </ol>
 
             <p> Hello World </p>
