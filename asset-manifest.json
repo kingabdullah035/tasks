@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/tasks/static/css/main.aeaf8eb9.css",
-    "main.js": "/tasks/static/js/main.45c50acd.js",
+    "main.css": "/tasks/static/css/main.3dc4997d.css",
+    "main.js": "/tasks/static/js/main.b06e0481.js",
     "static/js/787.4ef7427d.chunk.js": "/tasks/static/js/787.4ef7427d.chunk.js",
+    "static/media/barca.jpg": "/tasks/static/media/barca.43e376b57b6b5af94c10.jpg",
+    "static/media/interMiami.jpg": "/tasks/static/media/interMiami.64e3604e06db522a02de.jpg",
     "static/media/MessiWC.jpg": "/tasks/static/media/MessiWC.3a94cd06bda8baec1e8e.jpg",
+    "static/media/psg.jpg": "/tasks/static/media/psg.f7370a1435e918fb5008.jpg",
     "index.html": "/tasks/index.html",
-    "main.aeaf8eb9.css.map": "/tasks/static/css/main.aeaf8eb9.css.map",
-    "main.45c50acd.js.map": "/tasks/static/js/main.45c50acd.js.map",
+    "main.3dc4997d.css.map": "/tasks/static/css/main.3dc4997d.css.map",
+    "main.b06e0481.js.map": "/tasks/static/js/main.b06e0481.js.map",
     "787.4ef7427d.chunk.js.map": "/tasks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeaf8eb9.css",
-    "static/js/main.45c50acd.js"
+    "static/css/main.3dc4997d.css",
+    "static/js/main.b06e0481.js"
   ]
 }
