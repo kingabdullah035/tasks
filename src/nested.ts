@@ -241,16 +241,8 @@ export function editOption(
     };
     return questions.map(
         (question: Question): Question =>
-            question.id === targetId
-                ? {
-                      ...question,
-                      options: insertNewOption(
-                          question.options,
-                          targetOptionIndex,
-                          newOption
-                      )
-                  }
-                : { ...question, options: [...question.options] }
+            // eslint-disable-next-line prettier/prettier
+            question.id === targetId ? {...question, options: insertNewOption(question.options, targetOptionIndex, newOption)}: { ...question, options: [...question.options] }
     );
 }
 
