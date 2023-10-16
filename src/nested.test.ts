@@ -893,11 +893,7 @@ describe("Testing the Question[] functions", () => {
         ]);
     });
 
-<<<<<<< HEAD
-    test("Testing the editOption function", () => {
-=======
     test("Testing the addEditQuestionOption function", () => {
->>>>>>> upstream/task-state
         expect(editOption(BLANK_QUESTIONS, 1, -1, "NEW OPTION")).toEqual([
             {
                 id: 1,
