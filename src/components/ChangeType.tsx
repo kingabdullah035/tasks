@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 import React from "react";
+=======
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
+import { QuestionType } from "../interfaces/question";
+>>>>>>> upstream/task-forms
 
 export function ChangeType(): JSX.Element {
     return <div>Change Type</div>;

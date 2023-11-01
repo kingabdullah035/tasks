@@ -1,18 +1,34 @@
 import React from "react";
 import "./App.css";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Button, Col, Container, Row } from "react-bootstrap";
 import messi from "./MessiWC.jpg";
 import barca from "./barca.jpg";
 import psg from "./psg.jpg";
 import Miami from "./interMiami.jpg";
 =======
+=======
+>>>>>>> upstream/task-forms
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
+<<<<<<< HEAD
 >>>>>>> ab9bfb5 (Basic starter files for components)
+=======
+import { Counter } from "./components/Counter";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ShoveBox } from "./bad-components/ShoveBox";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { CheckAnswer } from "./form-components/CheckAnswer";
+import { GiveAttempts } from "./form-components/GiveAttempts";
+import { EditMode } from "./form-components/EditMode";
+import { MultipleChoiceQuestion } from "./form-components/MultipleChoiceQuestion";
+import { ChangeColor } from "./form-components/ChangeColor";
+>>>>>>> upstream/task-forms
 
 function App(): JSX.Element {
     return (
@@ -22,6 +38,7 @@ function App(): JSX.Element {
                 <br />
                 By: Abdullah Maruf
             </header>
+<<<<<<< HEAD
 <<<<<<< HEAD
             <h1 id="first_header"> G.O.A.T. </h1>
             <img src={messi} alt="messi pic"></img>
@@ -63,6 +80,31 @@ function App(): JSX.Element {
                 </Row>
             </Container>
 =======
+=======
+            <hr></hr>
+            <CheckAnswer expectedAnswer="42"></CheckAnswer>
+            <hr></hr>
+            <GiveAttempts></GiveAttempts>
+            <hr></hr>
+            <EditMode></EditMode>
+            <hr></hr>
+            <ChangeColor></ChangeColor>
+            <hr></hr>
+            <MultipleChoiceQuestion
+                options={["a", "b", "c"]}
+                expectedAnswer="b"
+            ></MultipleChoiceQuestion>
+            <hr></hr>
+            {/* <DoubleHalf></DoubleHalf> */}
+            <hr></hr>
+            <ChooseTeam></ChooseTeam>
+            <hr></hr>
+            <ColoredBox></ColoredBox>
+            <hr></hr>
+            <ShoveBox></ShoveBox>
+            <hr></hr>
+            <Counter></Counter>
+>>>>>>> upstream/task-forms
             <hr />
             <RevealAnswer></RevealAnswer>
             <hr />
@@ -73,7 +115,10 @@ function App(): JSX.Element {
             <ChangeType></ChangeType>
             <hr />
             <CycleHoliday></CycleHoliday>
+<<<<<<< HEAD
 >>>>>>> ab9bfb5 (Basic starter files for components)
+=======
+>>>>>>> upstream/task-forms
         </div>
     );
 }
