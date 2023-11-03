@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+import React from "react";
+=======
+=======
+>>>>>>> c0bbc39 (Updated, complete tests for all state components)
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
@@ -10,6 +16,10 @@ import { Button } from "react-bootstrap";
 export function d6(): number {
     return 1 + Math.floor(Math.random() * 6);
 }
+<<<<<<< HEAD
+>>>>>>> upstream/task-forms
+=======
+>>>>>>> c0bbc39 (Updated, complete tests for all state components)
 
 export function TwoDice(): JSX.Element {
     const [rightDice, setRightDice] = useState<number>(1);
