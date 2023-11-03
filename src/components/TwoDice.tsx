@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 import React from "react";
 =======
 =======
 >>>>>>> c0bbc39 (Updated, complete tests for all state components)
+>>>>>>> 4f8d3904e5f21c7594a5ff6919233e7a95f90f13
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 
@@ -17,9 +20,12 @@ export function d6(): number {
     return 1 + Math.floor(Math.random() * 6);
 }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> upstream/task-forms
 =======
 >>>>>>> c0bbc39 (Updated, complete tests for all state components)
+>>>>>>> 4f8d3904e5f21c7594a5ff6919233e7a95f90f13
 
 export function TwoDice(): JSX.Element {
     const [rightDice, setRightDice] = useState<number>(1);

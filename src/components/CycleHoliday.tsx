@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-import React from "react";
-=======
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
->>>>>>> upstream/task-forms
 
 /**
 By Date
@@ -44,10 +39,6 @@ const HolidayByAlphabet: Record<Holiday, Holiday> = {
     "New Year": "Ramdan",
     Ramdan: "Christmas"
 };
-=======
-import React, { useState } from "react";
-import { Button } from "react-bootstrap";
->>>>>>> c0bbc39 (Updated, complete tests for all state components)
 
 export function CycleHoliday(): JSX.Element {
     const [holiday, setHoliday] = useState<Holiday>("Ramdan");
